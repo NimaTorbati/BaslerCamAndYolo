@@ -7,11 +7,18 @@ This notebook compares the performance of yolov8n on
 1. Intel Core i7 CPU  i7-8550U 1.80GHz
 2. Intel uhd 620 graphic gpu
 3. Nvidia GPU Geforce MX150 4G
+
 Note that you should export model to openvino to get best results for Intel processors.
+
 Based on my results
+
   Rank1: Yolov8n model with Nvidia GPU =  25.65 FPS
+
   Rank2: openvino model with Intel uhd 620 GPU =  11.98 FPS
+
   Rank3: openvino model with CPU =  7.08 FPS
+  
   Rank4: Yolov8n model with CPU =  4.55 FPS
+  
   Rank5: openvino model with Nvidia GPU =  2.35 FPS
 

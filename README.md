@@ -8,7 +8,7 @@ This notebook compares the performance of yolov8n on
 2. Intel uhd 620 graphic gpu
 3. Nvidia GPU Geforce MX150 4G
 
-Note that you should export model to openvino to get best results for Intel processors.
+**Note**: that you should export model to openvino to get best results for Intel processors.
 
 Based on my results
 

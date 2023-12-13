@@ -1,20 +1,20 @@
 # BaslerCamAndYolo
-Run Basler camera and Yolov8 Deep neural network on different platforms, Intel CPU, Intel UHD GPU, Nvidiea GPU and jetson nano.
+Run Basler camera and Yolov8 Deep neural network on different platforms, Intel CPU, Intel UHD GPU, Nvidia GPU, and jetson nano.
 ## Specs1
-This notebook includes different acquisition specs of Camera including frame rate, brightness adjustment and ...
+This notebook includes different acquisition specs of the Camera including frame rate, brightness adjustment and ...
 ## YoloSpeedTest
 This notebook compares the performance of yolov8n on:
 1. Intel Core i7 CPU  i7-8550U 1.80GHz
-2. Intel uhd 620 graphic gpu
+2. Intel UHD 620 graphic GPU
 3. Nvidia GPU Geforce MX150 4G
 
-**Note**: that you should export model to openvino to get best results for Intel processors.
+**Note**: you should export the model to Openvino to get the best results for Intel processors.
 
 Based on my results
 
   Rank1: Yolov8n model with Nvidia GPU =  25.65 FPS
 
-  Rank2: openvino model with Intel uhd 620 GPU =  11.98 FPS
+  Rank2: opening model with Intel UHD 620 GPU =  11.98 FPS
 
   Rank3: openvino model with CPU =  7.08 FPS
   
@@ -26,10 +26,10 @@ Based on my results
 
 
 ## YoloCam
-  This python script runs Basler camera and Yolo model together and saves the frame if an object is detected
+  This Python script runs the Basler camera and Yolo model together and saves the frame if an object is detected
 
 ## jetson nano
-You can use YoloCam script on Jetson nano. 
+You can use the YoloCam script on Jetson Nano. 
 
 It is important to follow the steps in: https://i7y.org/en/yolov8-on-jetson-nano/.
 

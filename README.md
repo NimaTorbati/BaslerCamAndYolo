@@ -19,10 +19,11 @@ Based on my results
   Rank3: openvino model with CPU =  7.08 FPS
   
   Rank4: Yolov8n model with CPU =  4.55 FPS
+
+  Rank6: Yolov8n model with jetson nano GPU = 4.3 FPS
   
   Rank5: openvino model with Nvidia GPU =  2.35 FPS
 
-  Rank6: Yolov8n model with jetson nano GPU = 2.1 FPS
 
 ## YoloCam
   This python script runs Basler camera and Yolo model together and saves the frame if an object is detected
@@ -34,5 +35,5 @@ It is important to follow the steps in: https://i7y.org/en/yolov8-on-jetson-nano
 
 You can only run this script on python3.8 on jetson nano and only in virtual environment using venv.
 
-I could reach 2 FPS using Jetson nano CUDA.
+I could reach 4.3 FPS using Jetson nano CUDA.
 

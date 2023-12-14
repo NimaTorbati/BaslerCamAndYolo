@@ -20,9 +20,9 @@ Based on my results
   
   Rank4: Yolov8n model with CPU =  4.55 FPS
 
-  Rank6: Yolov8n model with jetson nano GPU = 4.3 FPS
+  Rank5: Yolov8n model with jetson nano GPU = 4.3 FPS
   
-  Rank5: Openvino model with Nvidia GPU =  2.35 FPS
+  Rank6: Openvino model with Nvidia GPU =  2.35 FPS
 
 
 ## YoloCam

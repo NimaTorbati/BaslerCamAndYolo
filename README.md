@@ -1,5 +1,5 @@
 # BaslerCamAndYolo
-Run Basler camera and Yolov8 Deep neural network on different platforms, Intel CPU, Intel UHD GPU, Nvidia GPU, and jetson nano.
+Run Basler camera and Yolov8 Deep neural network on different platforms, Intel CPU, Intel UHD GPU, Nvidia GPU, Google coral USB and jetson nano.
 ## Specs1
 This notebook includes different acquisition specs of the Camera including frame rate, brightness adjustment and ...
 ## YoloSpeedTest
